@@ -1,0 +1,214 @@
+/* *{
+  padding: 0;
+  margin: 0;
+} */
+body{
+  background-image:url(../img/bg_pic.png) ;
+  background-position: center;
+  background-size: cover;
+  overflow-y: auto;
+  margin:0;
+}
+
+header{
+  height:50px;
+  width: 100vw;
+  background: rgb(22, 22, 58);
+  position: sticky;
+  left:0;
+  top:0;
+}
+
+header button{
+      float: right;
+    position: relative;
+    top: 17px;
+    right: 30px;
+
+}
+
+header div{
+  color:white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.hidden{
+  display: none;
+}
+
+#output div{
+  background:white;
+  padding:30px;
+  border-radius: 15px;
+  margin:20px; 
+}
+
+#output div:nth-child(odd){
+  background:lime;
+}
+
+.time{
+  text-align: left;
+}
+
+#like, #reply{
+  margin-right:10px;
+}
+
+.container{
+background: whitesmoke;
+width:70vw;
+margin:20px auto;
+border-radius: 5px;
+box-shadow: 0 10px 10px black;
+}
+
+
+.deepercontainer{
+  width:95%;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#txtEmail{
+  margin-top:10px;
+}
+
+.modal_btn{
+  display: flex;
+  
+}
+
+#btnLogin{
+  background:blue;
+  color:white;
+  padding:10px;
+  margin-right:5px;
+  margin-bottom:10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btnLogin:hover{
+  opacity:0.9;
+}
+
+#btnSignUp{
+  background:gray;
+  color:white;
+  padding:10px;
+  margin-bottom:10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btnSignUp:hover{
+  opacity:0.9;
+}
+
+
+input{
+  font-size:20px;
+  margin-bottom:10px;
+  border-radius: 20px;
+  padding:10px;
+  width:70%;
+}
+
+footer input{
+  margin-top:20px;
+}
+
+input, textarea{
+  border:none;
+}
+
+textarea{
+  font-size:20px;
+  width:70%;
+  margin:0 auto;
+  border-radius: 30px;
+  padding:10px;
+  background: rgb(235, 232, 232);
+  margin-top:8px;
+}
+
+#send{
+  display: inline-block;
+}
+
+footer{
+  height:83px;
+  width: 100vw;
+  background:rgb(247, 246, 246);
+  position: sticky;
+  left:0;
+  bottom:0;
+  text-align: center;
+}
+
+.reply{
+  margin-right:10px;
+}
+
+#clear{
+  width:99.2px;
+  margin-left:10px;
+}
+
+#name{
+  background: rgb(235, 232, 232);
+}
+
+.flex{
+  display: flex;
+  /* position: relative; */
+}
+
+.none{
+  display:none;
+}
+
+.fas{
+  color:blue;
+  font-size:40px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: relative;
+  top: 20px;
+  right: 25px;
+  height:40px;
+}
+
+.uploads{
+  display: flex;
+  flex-direction: column;
+}
+
+.otherbtn{
+  width:90%;
+  margin:0 auto;
+  text-align: left;
+}
+
+@media screen and (max-width:1024px) { 
+.fas{
+  right:12px;
+}
+}
+
+@media screen and (max-width:768px) { 
+.fas{
+  right: -14px;
+  font-size: 38px;
+  margin-right: 30px;
+}
+}
+@media screen and (max-width:414px) { 
+.fas{
+  font-size:34px;
+}
+}
